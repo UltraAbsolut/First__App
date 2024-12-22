@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+                <TextView
+                    android:id="@+id/aberfvgc"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="План на неделю (каждый день)"
+                    android:textColor="#ff0000"
+                    android:textSize="35dp"/>
+            <!--Первое -->
+                <TextView
+                    android:id="@+id/first"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="1. Проснуться(по желанию)"
+                    android:textSize="20dp"/>
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:gravity="center"
+                    android:src="@drawable/mansleep"/>
+            <!--Второе -->
+                <TextView
+                    android:id="@+id/second"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="2. Саморазвитие"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:gravity="center"
+                    android:src="@drawable/pooping"/>
+            <!--Третье -->
+                <TextView
+                    android:id="@+id/third"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="3. Правильное питание "
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:gravity="center"
+                    android:src="@drawable/fastfood"/>
+            <!--Четвертое -->
+                <TextView
+                    android:id="@+id/fourth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="4. Заниматься важными делами"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:gravity="center"
+                    android:src="@drawable/busy"/>
+            <!--Пятое -->
+                <TextView
+                    android:id="@+id/fifth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="5. Переходить по ссылке"
+                    android:textSize="20sp"/>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Жми! Жми!"
+                    android:textSize="20sp" />
+            <!--Шестое -->
+                <TextView
+                    android:id="@+id/sixth"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:text="6. Сладко спать"
+                    android:textSize="20sp"/>
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="400dp"
+                    android:gravity="center"
+                    android:src="@drawable/sleep_again"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
